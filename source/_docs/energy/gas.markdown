@@ -29,3 +29,8 @@ We have worked with creator [Marcel Zuidwijk](https://www.zuidwijk.com) to devel
 
 ![Photo of the AI-on-the-edge-device Workflow](/images/docs/energy/ai-on-the-edge-device.jpg)
 
+#### Read the Gas Meter using a magnetometer
+
+[Diaphragm Gas Meters](https://en.wikipedia.org/wiki/Gas_meter#Diaphragm/bellows_meters) are very common and their movement can typically be measured by a magnetometer. The [QMC5883L](https://esphome.io/components/sensor/qmc5883l.html) is inexpensive and has an integration for ESPHome. There are many posts on the forums of users collecting their gas consumption this way, such as [this one](https://community.home-assistant.io/t/water-gas-meter-monitoring-via-magnetometer-sine-wave-to-pulse-issue/245904). Because the diaphragm typically goes through multiple cycles for each 'count' on the meter, higher resolution than other methods is possible.
+
+![Photo of a typical residential gas meter]((https://en.wikipedia.org/wiki/File:Gas_meter.JPG))
